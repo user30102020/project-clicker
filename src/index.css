@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+body {
+    font-family: 'Playfair Display SC', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.clicker {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    margin-top: 100px;
+    padding: 12px;
+}
+
+.clicker__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.clicker__header-banner {
+    margin-top: 0;
+    padding-top: 4px;
+    font-weight: 1100;
+}
+
+.btn-header {
+    width: 150px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: black;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+.btn-header:hover {
+    outline: none;
+    box-shadow: 0 0 0 1px black;
+}
+
+.btn-header-img {
+    padding-bottom: 3px;
+}
+
+.clicker__main {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.btn-main {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: none;
+    color: white;
+    background-color: darkslategrey;
+}
+
+.btn-main:hover {
+    outline: none;
+    box-shadow: 0 0 0 1px black;
+}
+
+.btn-main--red {
+    background-color: red;
+}
+
+.btn-main--yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.btn-main--green {
+    background-color: green;
+}
+
+.clicker__footer {
+    padding-top: 5px;
+}
+
+.clicker__footer_parameters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clicker__footer_info {
+    display: flex;
+    justify-content: left;
+}
+
+.clicker__footer_info-counter {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 55px;
+}
+
+
+
+
+
+

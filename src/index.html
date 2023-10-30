@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Clicker</title>
+        <link
+                href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+                rel="stylesheet"
+                integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+                crossorigin="anonymous"
+        >
+        <link
+                rel="stylesheet"
+                type="text/css"
+                href="./index.css"
+        >
+    </head>
+    <body>
+        <div class="clicker">
+            <div class="clicker__header">
+                <h3 class="clicker__header-banner">
+                    CLICKER!
+                </h3>
+                <button class="btn-header">
+                    <img class="btn-header-img" src="../icons/btn-reset.svg">
+                    RESET
+                </button>
+            </div>
+            <div class="clicker__main">
+                <button class="btn-main">
+                    <h3>ClickOnMe!</h3>
+                </button>
+            </div>
+            <div class="clicker__footer">
+                <div class="clicker__footer_parameters">
+                    <span class="clicker__footer_parameters_wrapper">
+                        <input type="checkbox" id='counter' name="parameter" value="counter"> SHOW COUNTER
+                    </span>
+                    <span class="clicker__footer_parameters_wrapper">
+                        <form>
+                            <label for="color">CHOOSE BUTTON COLOR: </label>
+                            <select id="color" name="parameter" >
+                                <option disabled>???</option>
+                                <option value="red">red</option>
+                                <option value="yellow">yellow</option>
+                                <option value="green">green</option>
+                            </select>
+                        </form>
+                    </span>
+                </div>
+                <div class="clicker__footer_info">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="../index.js"></script>
+    <script type="module">
+        import runApp from '../index.js';
+        runApp();
+    </script>
+</html>
